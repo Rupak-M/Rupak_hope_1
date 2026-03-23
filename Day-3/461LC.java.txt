@@ -1,0 +1,15 @@
+class Solution {
+    public int hammingDistance(int x, int y) {
+        int xor=x^y;
+        int dig=0;
+        int sum=0;
+        while(xor!=0){
+            dig=xor%2;
+            if(dig==1){
+                sum++;
+            }
+            xor/=2;
+        }
+        return sum;
+    }
+}
