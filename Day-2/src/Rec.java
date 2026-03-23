@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Rec {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        System.out.println("perimeter is " + 2*(a+b));
+        System.out.println("area is " + (a*b));
+        sc.close(); 
+    }
+}
