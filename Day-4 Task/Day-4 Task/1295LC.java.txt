@@ -1,0 +1,16 @@
+class Solution {
+    public int findNumbers(int[] nums) {
+        int dcount=0,ecount=0;
+        for(int n:nums){
+            dcount=0;
+            while(n!=0){
+                dcount++;
+                n/=10;
+            }
+            if(dcount%2==0){
+                ecount++;
+            }
+        }
+        return ecount;
+    }
+}
