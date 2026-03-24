@@ -1,0 +1,13 @@
+class Solution {
+    public String categorizeBox(int length, int width, int height, int mass) {
+        long formula=(long)length*(long)width*(long)height;
+        double d=Math.pow(10,4);
+        double v=Math.pow(10,9);
+        boolean bulky=(length>=d||width>=d||height>=d||formula>=v)?true:false;
+        boolean heavy=mass>=100?true:false;
+        if(bulky&&heavy) return "Both";
+        if(bulky) return "Bulky";
+        if(heavy) return "Heavy";
+        return "Neither";
+    }
+}
