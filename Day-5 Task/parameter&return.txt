@@ -1,0 +1,33 @@
+public class Methods {
+    static int value=10;
+    public  void square(int n){
+        System.out.println(value*n*n);
+    }
+    public void greetings(){
+        String name="Ravi";
+        System.out.println("Good Morning,"+name);
+    }
+
+    public int volume(int l,int b,int w){
+        return l*b*w;
+    } 
+    public int perimeter(){
+        int l=5;
+        int b=3;
+        return (2*(l+b));
+    }
+    public static void main(String[] args) {
+        String s="Hello";
+        System.out.println(s);
+        Methods m=new Methods();
+        m.square(2);
+        value=5;
+        m.square(2);
+        m.greetings();
+        int ans=m.volume(10,20,30);
+        System.out.println(ans);
+        int res=m.perimeter();
+        System.out.println(res);
+
+    }
+}
