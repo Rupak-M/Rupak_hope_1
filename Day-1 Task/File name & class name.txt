@@ -1,0 +1,6 @@
+In Java, the file name and class name must be the same when the class is declared as public.
+
+This is because:
+
+The Java compiler and JVM use the file name to locate the public class.
+A .java file can have only one public class, and its name must match the file name.

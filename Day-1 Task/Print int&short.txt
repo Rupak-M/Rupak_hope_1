@@ -1,0 +1,10 @@
+public class Hello{
+    public static void main(String[] args) {
+        int i1=-2147483648;
+        int i2=2147483647;
+        System.out.println("Range of integers is: "+i1+"to"+i2);
+        short s1=-32768;
+        short s2=32767;
+        System.out.println("Range of integers is: "+s1+"to"+s2);
+    }
+}

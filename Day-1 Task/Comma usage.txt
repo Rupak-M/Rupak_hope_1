@@ -1,0 +1,13 @@
+3. Using printf() (Better for formatting)
+
+
+int x = 10;
+System.out.printf("Value: %d", x);
+
+For multiple values:
+
+int a = 10, b = 20;
+System.out.printf("a = %d, b = %d", a, b);
+
+In printf():
+→ Comma is used to separate arguments, not print them
