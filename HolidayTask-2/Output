@@ -1,0 +1,10 @@
+Input:
+    101
+    Rupak
+    12
+
+Output:
+    Customer: Rupak
+    Driver: Suresh
+    Distance: 12.0
+    Fare (with tax): 100.8
